@@ -1,0 +1,48 @@
+{
+  "name": "@cwanii66/cw-build",
+  "version": "0.0.1",
+  "description": "personal build cli tool",
+  "homepage": "https://github.com/cwanii66/cw-build",
+  "author": {
+    "name": "Chris Wong",
+    "email": "wh18710455626@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwanii66/cw-build"
+  },
+  "bin": {
+    "cw-build": "./bin/cw-build.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cw-build",
+    "webpack"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chokidar": "^3.5.3",
+    "clean-webpack-plugin": "^4.0.0",
+    "commander": "^9.3.0",
+    "copy-webpack-plugin": "^11.0.0",
+    "css-loader": "^6.7.1",
+    "css-minimizer-webpack-plugin": "^4.0.0",
+    "detect-port": "^1.3.0",
+    "fast-glob": "^3.2.11",
+    "html-webpack-plugin": "^5.5.0",
+    "inquirer": "^8.2.4",
+    "mini-css-extract-plugin": "^2.6.1",
+    "npmlog": "^6.0.2",
+    "semver": "^7.3.7",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.73.0",
+    "webpack-chain": "^6.5.1",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^8.2.1"
+  },
+  "packageManager": "pnpm@7.9.3"
+}
