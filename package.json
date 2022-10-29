@@ -15,7 +15,7 @@
     "cw-build": "./bin/cw-build.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "cw-build"
   },
   "keywords": [
     "cw-build",
